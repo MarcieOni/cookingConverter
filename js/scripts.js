@@ -14,4 +14,4 @@ function lbToGrams(input) {
 
 const weight = window.prompt("how many pounds do u have?")
 
-window.alert("ur " + weight + "lbs is " + lbToOz(weight) + "ozs which is equal to " + lbToGrams(weight) "grams.")
+window.alert("ur " + weight + " pound(s) is " + lbToOz(weight) + " ounces which is equal to " + lbToGrams(weight).toFixed(2) + " grams.")
