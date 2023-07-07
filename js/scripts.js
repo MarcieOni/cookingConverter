@@ -37,4 +37,4 @@ window.alert("ur " + weight + " pound(s) is " + lbToOz(weight) + " ounces which 
 
 const measure = window.prompt("How many cups do u have o.o")
 
-window.alert("ur " + measure + "cup(s) is " + cupToTbsp(measure) + "tablespoons which is also " + tbspToTsp(cupToTbsp(measure)) + "teaspoons n that is also " + cupToMl(measure) + "milliliters.");
+window.alert("ur " + measure + " cup(s) is " + cupToTbsp(measure) + " tablespoons which is also " + tbspToTsp(cupToTbsp(measure)).toFixed(4) + " teaspoons n that is also " + cupToMl(measure) + " milliliters.");
